@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - ipykernel>=6
+  - jupyterlab
+  - numpy
+  - pip
+  - git
+  - pip:
+    - jupyter_contrib_nbextensions
+    - jupyterlab-git
+    - jupyterlab-link-share
+    - pandas
+    - matplotlib
+    - templater3
